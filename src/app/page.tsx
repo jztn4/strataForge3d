@@ -1,4 +1,4 @@
-import Hero from "./components/hero";
+// import Hero from "./components/hero";
 import Services from "./components/services";
 import Portfolio from "./components/portfolio";
 import CTA from "./components/cta";
