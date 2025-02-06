@@ -1,13 +1,13 @@
 import Image from "next/image";
 
 const portfolioItems = [
-  { title: "Custom Prototype", image: "/placeholder.svg?height=300&width=400" },
+  { title: "Custom Prototype", image: "/prototype.jpeg?height=300&width=400" },
   {
     title: "Cosplay Masks",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/ironMan.jpg?height=300&width=400",
   },
-  { title: "Desk Toys", image: "/placeholder.svg?height=300&width=400" },
-  { title: "RC Parts", image: "/placeholder.svg?height=300&width=400" },
+  { title: "Desk Toys", image: "/penHolder.jpg?height=300&width=400" },
+  { title: "RC Parts", image: "/drone.jpg?" },
 ];
 
 export default function Portfolio() {
@@ -26,7 +26,7 @@ export default function Portfolio() {
                 alt={item.title}
                 width={400}
                 height={300}
-                className="w-full h-auto transition-transform duration-300 group-hover:scale-110"
+                className="w-[400px] h-[300px] object-cover transition-transform duration-300 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h3 className="text-white text-xl font-semibold">
